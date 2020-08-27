@@ -1,5 +1,14 @@
-# RunLoopMode
-基于RunLoop  监听试图停止滑动时  对图片进行下载  使控制器滑动更流畅  
+
+#ifndef TQ_header_h
+#define TQ_header_h
+
+
+#import "TQRunLoopLisener.h"
+
+static  NSString *  TQ_kCFRunLoopBeforeWaiting =  @"StartNetImage";
+
+
+#endif /* TQ_header_h */
 
 
 
